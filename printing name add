@@ -1,0 +1,42 @@
+import java.util.*;
+public class Diksha{
+	public static void main(String[] arr){
+		Scanner scan = new Scanner(System.in);
+
+
+		System.out.print( "Enter name - ");
+		String name = scan.next();
+		System.out.print( "Enter Address - ");
+		String address = scan.next();
+		System.out.print( "Enter age - ");
+		String age = scan.next();
+		System.out.print( "Enter weight - ");
+		String weight = scan.nextLine();
+		System.out.print( "Enter height - ");
+		String height = scan.nextLine();
+		System.out.print( "Enter Father's Name - ");
+		String fathersname = scan.next();
+		System.out.print( "Enter Mother's Name - ");
+		String mothersname = scan.next();
+		System.out.print("Enter salary - ");
+		String salary = scan.next();
+
+
+		System.out.println( "Your name is - " +name);
+		System.out.println( "Your address is - " +address);
+		System.out.println( "Your age is - "+age);	
+		System.out.println( "Your weight is - " +weight);
+		System.out.println( "Your height is - " +height);
+		System.out.println( "Your fathersname is - " +fathersname);
+		System.out.println( "Your mothersname is - " +mothersname);	
+		System.out.print("Your salary is - " +salary);
+
+	}		
+
+}
+
+
+	
+
+
+		
